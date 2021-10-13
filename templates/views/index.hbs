@@ -6,22 +6,60 @@
     <link  rel="icon" href="/img/weather_icon.png"/>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
+
   <body>
-
-    <div class="main-content">
     {{>header}}
-    <p>Enter your location below to get started.</p>
-    <form>
-      <input placeholder="Enter your location">
-      <button>Search</button>
-    </form>
+    <div class="weather-panel-container">
+      <div class="weather-panel">
+        <div class="weather-panel-text">
+          <p>Enter your location to get started.</p>
+          <form>
+            <input placeholder="Enter your location">
+            <button>Search</button>
+          </form>
+          
+          {{!-- <p id="message-1"></p> --}}
+          <p id="message-2"></p>
 
-    <p id="message-1"></p>
-    <p id="message-2"></p>
+          <table>
+            <tr>
+              <td>Temperature</td>
+              <td class="table-column-right" id="temperature"></td>
+            </tr>
+            <tr>
+              <td>Feels Like</td>
+              <td class="table-column-right" id="feels-like"></td>
+            </tr>
+            <tr>
+              <td>Wind</td>
+              <td class="table-column-right" id="wind-speed"></td>
+            </tr>
+            <tr>
+              <td>Rain</td>
+              <td class="table-column-right" id="rain"></td>
+            </tr>
+          </table>
 
+        </div>
+      </div>
     </div>
 
-    {{>footer}}
+    <div class="weather-title-container">
+      <div>
+      <p id="location-temp"></p>
+      </div>
+
+      <div class="weather-title">
+        <h1 id="location-title">{{title}}</h1>
+          <div class="nav-links">
+            {{>nav}}
+          </div>
+      </div>
+
+      <div class="weather-footer">
+        {{>footer}}
+      </div>
+    </div>
     <script src='./js/app.js'></script>
   </body>
 </html>
