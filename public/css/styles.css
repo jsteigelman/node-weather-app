@@ -20,7 +20,6 @@ body {
     color: hsla(224, 95%, 8%, .8);
 }
 
-
 h1#header-app-name {
     color: black;
     color: hsla(224, 95%, 8%, .8);
@@ -196,23 +195,68 @@ p#location-temp {
     display: none;
 }
 
-/* @media only screen and (max-width: 800px) {
-    
-    body {   
-        background-size: contain;
+@media only screen and (max-width: 800px) {
+
+    input {
+        width: calc(100% - 28px);
+        margin-bottom: 8px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    div.weather-title-container {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    div.weather-title {
+        width: calc(100% - 32px);
+        margin: 16px;
     }
 
     .weather-panel {
-        overflow: auto;
-        flex-grow: 1;
-        background-color: hsla(224, 95%, 8%, 0.73);
-        float: right;
-        width: 100%;
+        width: calc(100% - 32px);
         height: auto;
-        z-index: 1;
-    
-        background: hsla(224, 95%, 8%, 0.5);
-        backdrop-filter: saturate(135%) blur(10px);
+        margin: 120px 16px 96px;
     }
 
-} */
+    .weather-panel-text {
+        padding: 32px 16px;
+    }
+
+    .weather-panel-text p {
+        margin-bottom: 32px;
+    }
+
+    h1#header-app-name {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    h1#location-title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    p#location-temp {
+        font-size: 48px;
+        line-height: 48px;
+        padding-right: 8px;
+    }
+
+    .nav-links {
+        font-size: 18px;
+        padding: 0 16px;
+        top: 48px;
+    }
+
+    .website-footer {
+        /* display: none; */
+        position: relative;
+        margin: 16px;
+        width: calc(100% - 32px);
+    }
+}
