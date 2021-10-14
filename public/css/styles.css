@@ -197,6 +197,12 @@ p#location-temp {
 
 @media only screen and (max-width: 800px) {
 
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     input {
         width: calc(100% - 28px);
         margin-bottom: 8px;
@@ -210,6 +216,7 @@ p#location-temp {
         display: block;
         width: 100%;
         height: auto;
+        min-height: auto;
     }
 
     div.weather-title {
@@ -232,7 +239,7 @@ p#location-temp {
     }
 
     h1#header-app-name {
-        font-size: 18px;
+        font-size: 32px;
         padding: 16px;
     }
 
@@ -250,7 +257,7 @@ p#location-temp {
     .nav-links {
         font-size: 18px;
         padding: 0 16px;
-        top: 48px;
+        top: 64px;
     }
 
     .website-footer {
@@ -258,5 +265,11 @@ p#location-temp {
         position: relative;
         margin: 16px;
         width: calc(100% - 32px);
+    }
+
+    .main-content {
+        font-size: 18px;
+        margin: 0 16px;
+        color: hsla(224, 95%, 8%, .8);
     }
 }
