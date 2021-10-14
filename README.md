@@ -18,3 +18,6 @@ This app is deployed to Heroku:
 * [request](https://www.npmjs.com/package/request) - module to make HTTP calls
 * [Mapbox](https://www.mapbox.com/) - API to retrieve latitude and longitude
 * [Weatherstack](https://weatherstack.com/) - API to retrieve current weather data
+
+## Website Preview
+![Uploading node-weather-app.png…]()
