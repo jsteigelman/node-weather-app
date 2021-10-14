@@ -21,7 +21,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather',
+        title: 'Enter your location in the search box to get started!',
         name: 'Joey Steigelman'
     })
 })
@@ -29,7 +29,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'My About Page!',
-        name: 'Joey S.'
+        name: 'Joey Steigelman'
     })
 })
 
@@ -37,7 +37,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help Page',
         helpText: 'Need help navigating this site?',
-        name: 'Joey',
+        name: 'Joey Steigelman',
     })
 })
 

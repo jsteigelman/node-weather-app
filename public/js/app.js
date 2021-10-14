@@ -8,8 +8,12 @@ const temperature = document.querySelector('#temperature')
 const feelsLike = document.querySelector('#feels-like')
 const windSpeed = document.querySelector('#wind-speed')
 const rain = document.querySelector('#rain')
+const weatherPanelData = document.querySelector('#weather-panel-data')
 
-
+const windDir = document.querySelector('#wind-dir')
+const pressure = document.querySelector('#pressure')
+const cloudCover = document.querySelector('#cloud-cover')
+const uvIndex = document.querySelector('#uv-index')
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -35,6 +39,15 @@ weatherForm.addEventListener('submit', (e) => {
             feelsLike.textContent = data.forecast.feelslike
             windSpeed.textContent = data.forecast.wind_speed + "km/h"
             rain.textContent = data.forecast.precip + "mm"
+
+            windDir.textContent = data.forecast.wind_dir
+            pressure.textContent = data.forecast.pressure
+            cloudCover.textContent = data.forecast.cloudcover + '%'
+            uvIndex.textContent = data.forecast.uv_index
+
+
+            weatherPanelData.style.display = weatherPanelData.style.display = 'block';
+
         })
     })
 })
