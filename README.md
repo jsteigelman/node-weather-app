@@ -20,4 +20,4 @@ This app is deployed to Heroku:
 * [Weatherstack](https://weatherstack.com/) - API to retrieve current weather data
 
 ## Website Preview
-<img src="node-weather-app.png" alt="node weather app" width="600"/>
+<img src="/public/img/node-weather-app.png" alt="node weather app" width="600"/>
