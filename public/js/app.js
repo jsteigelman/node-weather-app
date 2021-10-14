@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit', (e) => {
     fetch(url).then((response) => {
         response.json().then((data) => {
             if (data.error) {
-                return messageOne.textContent = data.error
+                return locationTitle.textContent = data.error
             }
 
             const message = data.forecast.weather_descriptions[0] + ". It is currently " + data.forecast.temperature + " degrees out. It feels like " + data.forecast.feelslike + " degrees out."
