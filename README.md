@@ -13,8 +13,8 @@ This app is deployed to Heroku:
 
 ## Built With
 * [Node.js](https://nodejs.org/en/) - JavaScript runtime environment
-* Express - web application framework
-* hbs - Express.js view engine for handlebars.js
-* request - module to make HTTP calls
-* Mapbox - API to retrieve latitude and longitude
-* Weatherstack - API to retrieve current weather data
+* [Express](https://expressjs.com/) - web application framework
+* [hbs](https://www.npmjs.com/package/hbs) - Express.js view engine for handlebars.js
+* [request](https://www.npmjs.com/package/request) - module to make HTTP calls
+* [Mapbox](https://www.mapbox.com/) - API to retrieve latitude and longitude
+* [Weatherstack](https://weatherstack.com/) - API to retrieve current weather data
