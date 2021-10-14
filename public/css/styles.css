@@ -17,7 +17,7 @@ body {
     margin: 0 48px;
     position: absolute;
     overflow-y: scroll;
-    color: red;
+    color: hsla(224, 95%, 8%, .8);
 }
 
 
@@ -195,3 +195,24 @@ td.table-column-right {
 p#location-temp {
     display: none;
 }
+
+/* @media only screen and (max-width: 800px) {
+    
+    body {   
+        background-size: contain;
+    }
+
+    .weather-panel {
+        overflow: auto;
+        flex-grow: 1;
+        background-color: hsla(224, 95%, 8%, 0.73);
+        float: right;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    
+        background: hsla(224, 95%, 8%, 0.5);
+        backdrop-filter: saturate(135%) blur(10px);
+    }
+
+} */
