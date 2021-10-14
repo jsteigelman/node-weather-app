@@ -6,9 +6,8 @@ This is a weather app that I built using Node.js and Express. It uses APIs from 
 [https://steigelman-weather-application.herokuapp.com/](https://steigelman-weather-application.herokuapp.com/)
 
 ## Functionality
-* This weather app uses basic features from Node.js like the ability to read and write from the file system.
-* It also utilizes third-party Node.js libraries, like Yargs and Chalk.
-* It also utilizes the web application framework Express
+* User can retrieve current weather data by entering a location in the search field
+* Responsive design
 
 ## Built With
 * Node.js - JavaScript runtime environment
