@@ -1,5 +1,4 @@
 # Node Weather App
-<img src="/public/img/node-weather-app.png" alt="node weather app" width="800"/>
 
 ## Description
 This is a weather app that I built using Node.js and Express. It uses APIs from Mapbox and Weatherstack to retrieve location information and current weather data.
@@ -21,4 +20,4 @@ This app is deployed to Heroku:
 * [Weatherstack](https://weatherstack.com/) - API to retrieve current weather data
 
 ## Website Preview
-<img src="/public/img/node-weather-app.png" alt="node weather app" width="600"/>
+<img src="/public/img/node-weather-app.png" alt="node weather app" width="840"/>
