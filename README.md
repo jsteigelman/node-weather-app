@@ -1,5 +1,6 @@
 # Node Weather App
 
+## Description
 This is a weather app that I built using Node.js and Express. It uses APIs from Mapbox and Weatherstack to retrieve location information and current weather data.
 
 ## Live Site URL
