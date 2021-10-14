@@ -12,7 +12,7 @@ This app is deployed to Heroku:
 * Responsive design
 
 ## Built With
-* Node.js - JavaScript runtime environment
+* [Node.js](https://nodejs.org/en/) - JavaScript runtime environment
 * Express - web application framework
 * hbs - Express.js view engine for handlebars.js
 * request - module to make HTTP calls
