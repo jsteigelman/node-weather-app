@@ -29,6 +29,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'My About Page!',
+        aboutText: 'This is a weather app.',
         name: 'Joey Steigelman'
     })
 })

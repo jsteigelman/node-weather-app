@@ -32,7 +32,7 @@ weatherForm.addEventListener('submit', (e) => {
             const message = data.forecast.weather_descriptions[0] + ". It is currently " + data.forecast.temperature + " degrees out. It feels like " + data.forecast.feelslike + " degrees out."
 
             // messageOne.textContent = 'Weather information for ' + data.location +'.'
-            messageTwo.textContent = 'At a glance: ' + message
+            messageTwo.textContent = 'Weather at a glance: ' + message
             locationTitle.textContent = data.location
             locationTemp.textContent = data.forecast.temperature + '°'
             temperature.textContent = data.forecast.temperature
@@ -47,7 +47,7 @@ weatherForm.addEventListener('submit', (e) => {
 
 
             weatherPanelData.style.display = weatherPanelData.style.display = 'block';
-
+            locationTemp.style.display = locationTemp.style.display = 'inline-flex';
         })
     })
 })

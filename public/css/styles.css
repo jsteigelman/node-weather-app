@@ -11,6 +11,15 @@ body {
     background-size: cover;
 }
 
+.main-content {
+    top: 118px;
+    bottom: 112px;
+    margin: 0 48px;
+    position: absolute;
+    overflow-y: scroll;
+    color: red;
+}
+
 
 h1#header-app-name {
     color: black;
@@ -180,5 +189,9 @@ td.table-column-right {
 }
 
 #weather-panel-data {
+    display: none;
+}
+
+#location-temp {
     display: none;
 }
