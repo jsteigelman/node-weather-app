@@ -11,6 +11,7 @@ const rain = document.querySelector('#rain')
 const windDir = document.querySelector('#wind-dir')
 const pressure = document.querySelector('#pressure')
 const cloudCover = document.querySelector('#cloud-cover')
+const humidity = document.querySelector('#humidity')
 const uvIndex = document.querySelector('#uv-index')
 const weatherPanelData = document.querySelector('#weather-panel-data')
 
@@ -39,6 +40,7 @@ weatherForm.addEventListener('submit', (e) => {
             windDir.textContent = data.forecast.wind_dir
             pressure.textContent = data.forecast.pressure
             cloudCover.textContent = data.forecast.cloudcover + '%'
+            humidity.textContent = data.forecast.humidity + '%'
             uvIndex.textContent = data.forecast.uv_index
 
             weatherPanelData.style.display = weatherPanelData.style.display = 'block';
