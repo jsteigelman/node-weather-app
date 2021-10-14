@@ -3,6 +3,7 @@
 This is a weather app that I built using Node.js and Express. It uses APIs from Mapbox and Weatherstack to retrieve location information and current weather data.
 
 ## Live Site URL
+This app is deployed to Heroku and available at the following link:
 [https://steigelman-weather-application.herokuapp.com/](https://steigelman-weather-application.herokuapp.com/)
 
 ## Functionality
