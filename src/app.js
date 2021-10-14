@@ -30,7 +30,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'My About Page!',
-        aboutText: 'This weather application was created by Joey Steigelman.',
+        aboutText: 'This is a weather app that uses Node.js, Express, and APIs from Mapbox and Weatherstack to retrieve location and weather data.',
         name: 'Joey Steigelman'
     })
 })
@@ -38,7 +38,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help Page',
-        helpText: 'Need help navigating this site?',
+        helpText: 'This is the help page. More updates coming soon.',
         name: 'Joey Steigelman',
     })
 })
